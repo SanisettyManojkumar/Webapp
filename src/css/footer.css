@@ -1,0 +1,31 @@
+/* Ensure the body and html take full height */
+body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .admin-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: red; /* Ensures the container takes full height of the viewport */
+  }
+  
+  .content {
+    flex: 1; /* This ensures the content takes up all available space */
+    padding: 20px;
+    padding-bottom: 3000px; /* Optional: Gives some space at the bottom if needed */
+  }
+  
+  footer {
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 5px;
+    text-align: center;
+    
+  }
+  
